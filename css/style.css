@@ -1,0 +1,37 @@
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+.main_banner {
+  background-image: url("../images/img.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.main_banner.item_2 {
+  background-image: url("../images/img2.jpg");
+}
+.main_banner.item_3 {
+  background-image: url("../images/img3.jpg");
+}
+.main_banner.item_4 {
+  background-image: url("../images/img4.jpg");
+}
+
+.collapse p {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-right: 22px;
+  padding: 7px 27px;
+  color: white;
+}
+
+.nav-item {
+  margin-right: 23px;
+}
+.nav-item .contacts {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 12px 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

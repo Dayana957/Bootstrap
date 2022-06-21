@@ -1,6 +1,13 @@
 @import "bootstrap.css";
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek.woff2") format("woff2"), url("../fonts/20Kopeek.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 header {
   z-index: 11;
   margin-top: 25px;
@@ -89,7 +96,7 @@ header {
   padding-bottom: 134px;
 }
 .firm_style h2 {
-  font-family: "20 Kopeek Book";
+  font-family: "20 Kopeek";
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
@@ -103,6 +110,167 @@ header {
   font-size: 18px;
   line-height: 140%;
   color: #181818;
+}
+.firm_style .firm-container {
+  background: #2B59C3;
+  padding: 7px 11px;
+}
+.firm_style .guid {
+  padding: 14px 5px 0 12px;
+}
+
+.logos_and_names {
+  padding-bottom: 120px;
+}
+.logos_and_names .number {
+  font-size: 55px;
+  top: -40px;
+}
+.logos_and_names .enumer {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.logos_and_names .enum-descript {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.form_style {
+  padding-bottom: 133px;
+}
+.form_style p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.form_style .custom {
+  background: #2B59C3;
+  padding: 10px 0 9px 15px;
+}
+.form_style .custom p::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f0d7";
+}
+.form_style .form_container {
+  padding: 10px 0 0 15px;
+}
+
+@media only screen and (max-width: 820px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}
+.portfolio .see_project {
+  padding-bottom: 100px;
+}
+.portfolio .see_project h3 {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+}
+.portfolio .see_project p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.portfolio .btn {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  border-radius: 40px;
+  padding: 23px 47px;
+  text-decoration: none;
+  transition: 0.6s;
+}
+.portfolio .btn:hover {
+  transform: scale(1.1);
+}
+.portfolio .more {
+  text-align: center;
+  padding-bottom: 120px;
+}
+.portfolio .more .btn {
+  background: #2B59C3;
+  border-radius: 40px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #FFFFFF;
+}
+.portfolio .project {
+  padding-bottom: 53px;
+}
+
+.form-callback h3 {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+}
+.form-callback p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #181818;
+}
+.form-callback .form-check {
+  padding-left: 36px;
+}
+.form-callback .form-check span {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2B59C3;
+}
+.form-callback .form-control {
+  padding: 29px 0 29px 29px;
+  border: 1px solid #181818;
+  border-radius: 10px;
+}
+.form-callback .btn {
+  margin-top: 15px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  border-radius: 40px;
+  padding: 23px 47px;
+  text-decoration: none;
+  transition: 0.6s;
+  background: #2B59C3;
+}
+.form-callback .btn:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -13,6 +13,11 @@ header {
   margin-top: 25px;
 }
 
+@media only screen and (max-width: 428px) {
+  .firm-text {
+    display: none;
+  }
+}
 .main_banner {
   background-image: url("../images/img.jpg");
   background-size: cover;
@@ -91,7 +96,10 @@ header {
   margin-right: 20px;
 }
 
-@media only screen and (max-width: 466px) {
+@media only screen and (max-width: 470px) {
+  .main_section .container {
+    margin-top: 100px;
+  }
   .main_section .btn {
     margin-bottom: 20px;
   }
